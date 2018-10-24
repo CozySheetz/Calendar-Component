@@ -19,6 +19,7 @@ var connection = mysql.createConnection({
   // start date - references the first date that one specific person/group is using it
   // end date - references when that rental time  is done\
     // MAX IS 8 DAYS
+    // 
 
 
 // Markings 
@@ -26,6 +27,8 @@ var connection = mysql.createConnection({
   // type: - string?
   // start date 
   // end date
+
+  // react calendar has a date to be added and so does sql to help template format
 
 
 
