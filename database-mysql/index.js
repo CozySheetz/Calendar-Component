@@ -8,6 +8,7 @@ var connection = mysql.createConnection({
 });
 
 
+
 // LISTINGS TABLE
   // ListingID - int, PRIMARY KEY
   // address,
@@ -32,14 +33,14 @@ var connection = mysql.createConnection({
 
 
 
-var selectAll = function(callback) {
-  connection.query('SELECT * FROM items', function(err, results, fields) {
-    if(err) {
-      callback(err, null);
-    } else {
-      callback(null, results);
-    }
-  });
-};
+// var selectAll = function(callback) {
+//   connection.query('SELECT * FROM items', function(err, results, fields) {
+//     if(err) {
+//       callback(err, null);
+//     } else {
+//       callback(null, results);
+//     }
+//   });
+// };
 
 module.exports.selectAll = selectAll;

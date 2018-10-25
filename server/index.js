@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 
 var app = express();
 app.use(bodyParser.json())
-var port = 3000;
+var port = 8080;
 
 app.use(express.static(__dirname + '/../react-client/dist'));
 app.get('/', function(req, res) {
