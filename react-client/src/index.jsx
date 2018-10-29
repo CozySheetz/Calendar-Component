@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ReactCalender from 'react-calendar'
@@ -34,3 +35,6 @@ class App extends React.Component {
 };
 
 ReactDOM.render(<App/>, document.getElementById('app'));
+=======
+import React from 'react'
+>>>>>>> 6328d59d5755db711e5804c5558a208b983ea503
